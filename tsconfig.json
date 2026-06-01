@@ -1,0 +1,39 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/assets/*": ["./assets/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "src/components/SetInput.jsx",
+    "src/components/WorkoutCard.jsx",
+    "src/components/Spacer.jsx",
+    "src/constants/theme.js",
+    "src/components/ExerciseCard.jsx",
+    "src/components/AppButton.jsx",
+    "src/app/index.jsx",
+    "src/app/_layout.jsx",
+    "src/app/(dashboard)/createworkout.jsx",
+    "src/app/(dashboard)/progress.jsx",
+    "src/app/(dashboard)/programs.jsx",
+    "src/app/(dashboard)/workoutdetails.jsx",
+    "src/app/(dashboard)/profile.jsx",
+    "src/app/(dashboard)/index.jsx",
+    "src/app/auth/login.jsx",
+    "src/app/auth/register.jsx",
+    "src/contexts/WorkoutContext.jsx",
+    "src/contexts/AuthContext.jsx",
+    "src/hooks/use-color-scheme.js",
+    "src/hooks/use-color-scheme.web.js",
+    "src/hooks/use-theme.js",
+    "src/lib/workoutLogic.js",
+    "src/lib/theme.js"
+  ]
+}
